@@ -1,0 +1,75 @@
+header {
+  background-color: var(--main);
+  padding: 17px 0;
+  border-bottom: 1px solid black;
+}
+
+ul {
+  gap: 20px;
+  list-style: none;
+}
+
+header li {
+  font-size: 14px;
+  font-family: "sohne";
+  font-weight: 300;
+}
+
+header button,
+.container button {
+  padding: 12px 20px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  background-color: var(--main);
+}
+.container .flex > div {
+  width: 50%;
+}
+.container h1 {
+  font-size: 50px;
+}
+
+.intro-text {
+  font-size: 85px;
+  font-family: "gt-super";
+}
+
+.starter-text {
+  font-size: 24px;
+  margin: 35px 0;
+  max-width: 350px;
+  font-family: "sohne";
+  font-weight: 300;
+}
+
+.container button {
+  padding: 7px 40px;
+  font-size: 19px;
+}
+
+.columns-3 > div {
+  padding-left: 25px;
+}
+
+.trending-image {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.bottom-words {
+  font-size: 13px;
+  color: #808080;
+  gap: 0px 5px;
+}
+
+.trending-text {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 15px 0;
+}

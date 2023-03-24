@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grande</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <link rel="icon" type="image/x-icon" href="/icons/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/icons/android-chrome-512x512.png">
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

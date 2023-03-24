@@ -1,0 +1,177 @@
+body {
+  counter-reset: numbers;
+}
+
+header {
+  background-color: var(--main);
+  padding: 17px 0;
+  border-bottom: 1px solid black;
+}
+
+ul {
+  gap: 20px;
+  list-style: none;
+}
+
+header li {
+  font-size: 14px;
+  font-family: "sohne";
+  font-weight: 300;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:visited {
+  color: black;
+}
+
+.logo {
+  height: 30px;
+}
+header button,
+.container button {
+  padding: 12px 20px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  background-color: var(--main);
+  border-bottom: 1px solid black;
+}
+.container .flex > div {
+  width: 50%;
+}
+.container h1 {
+  font-size: 50px;
+}
+
+.intro-text {
+  font-size: 85px;
+  font-family: "gt-super";
+  letter-spacing: -0.055em;
+}
+
+.starter-text {
+  font-size: 24px;
+  margin: 35px 0;
+  max-width: 350px;
+  font-family: "sohne";
+  font-weight: 300;
+}
+
+.container button {
+  padding: 7px 40px;
+  font-size: 19px;
+}
+
+.columns-3 > div {
+  padding-left: 25px;
+}
+
+.trending {
+  padding-top: 37px;
+  font-family: "sohne";
+  counter-reset: numbers;
+  border-bottom: 1px solid rgb(137, 136, 136);
+  padding-bottom: 30px;
+}
+
+.trending-header {
+  gap: 0px 15px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.trending-header h6 {
+  letter-spacing: 0.083rem;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(41, 41, 41);
+}
+
+.trending-image {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.trending h5 {
+  font-size: 13px;
+  padding-left: 11px;
+}
+
+.bottom-words {
+  font-size: 13px;
+  color: #808080;
+  gap: 0px 5px;
+}
+
+.trending-text {
+  font-family: "sohne-700";
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0;
+  line-height: 20px;
+}
+
+.trending-inner {
+  gap: 30px 0;
+}
+
+.trending-inner > div {
+  padding-left: 50px;
+  position: relative;
+}
+
+.trending-inner > div::before {
+  counter-increment: numbers;
+  content: "0" counter(numbers);
+  font-family: "sohne-700";
+  font-size: 30px;
+  position: absolute;
+  left: 0px;
+  top: -13px;
+  color: rgba(230, 230, 230, 1);
+}
+
+.opacity-50 {
+  opacity: 50%;
+}
+
+.modal.active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.modal-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.modal-content {
+  position: relative;
+  z-index: 2;
+  width: 95%;
+  max-width: 600px;
+  min-height: 300px;
+  background-color: #fff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.42);
+}
+
+.welcome-back {
+  font-size: 28px;
+  font-family: "gt-super";
+}

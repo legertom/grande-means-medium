@@ -1,0 +1,252 @@
+/* .displayNav {
+  display: none !important;
+}
+.dwBzgA,
+.cuuBXl,
+.itlFCg {
+  margin-left: 1px !important;
+}
+.jiSfzC {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .profileid2 {
+    display: none !important;
+  }
+  .profileid3 {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .profileid {
+    display: none !important;
+  }
+  #hamberController {
+    top: 820px;
+    z-index: 999;
+  }
+  .profileid2 {
+    position: relative;
+    margin-left: 5px !important;
+    margin-top: -120px !important;
+    height: 250px !important;
+    min-width: 170px !important;
+  }
+  .profileid3 {
+    margin-left: 0px !important;
+    height: 130px !important;
+    padding: 5px !important;
+    max-width: fit-content !important;
+    width: 230px !important;
+    text-align: center !important;
+  }
+  .dXbIMM {
+    margin: 0px !important;
+  }
+  .iojLbU,
+  .lcjBGA {
+    height: 30px;
+    width: 70px;
+    font-size: 7px !important;
+  }
+  .iojLbU {
+    margin-left: 20px;
+  }
+  .lcjBGA {
+    margin-right: -40px;
+  }
+  .gaplOe {
+    position: relative;
+    left: 20px;
+    top: 150px;
+    width: 360px !important;
+    background-size: auto;
+    margin: 0px !important;
+  }
+  .emGcLC {
+    position: relative;
+    left: -400px;
+    width: 360px !important;
+    background-size: auto;
+    margin: 0px !important;
+  }
+  .jZwAxus {
+    position: relative;
+  }
+  .liqzki {
+    margin-right: -150px !important;
+    width: 70px !important;
+    font-size: 11px !important;
+    padding: 2px;
+  }
+  .gfxvuB {
+    margin-right: -160px !important ;
+    font-size: 24px !important;
+    margin-bottom: -60px !important;
+  }
+  .ezUXRt {
+    padding: 5px !important;
+    width: 120px !important;
+    font-size: 11px !important;
+  }
+  .hdGPhd {
+    height: 100px !important;
+    width: 100px !important;
+  }
+  .jGEMyc {
+    min-width: 64px !important;
+    height: 1250px !important;
+  }
+  .emGcLC {
+    display: block;
+    position: relative;
+  }
+  .jiSfzC,
+  .hgYvmx {
+    width: 50px !important;
+    height: 20px !important;
+    font-size: 7px !important;
+    padding: 1px 2px !important;
+    padding-top: 5px !important;
+    border-radius: 0 !important;
+    margin-right: 2px !important;
+  }
+  .efQZNc {
+    font-size: 0.6rem !important;
+  }
+  .bHwxoL,
+  .hXqHLQ {
+    width: 230px !important;
+  }
+  .fkihYl,
+  .etyHCt {
+    font-size: 2vw !important;
+  }
+  .eNgSQC {
+    height: 30px !important;
+  }
+  .jEmMWy {
+    font-size: 3vw !important;
+    margin-right: 0px !important;
+  }
+
+  @media (width: 540px) {
+    .emGcLC {
+      align-items: center !important;
+      margin-left: 40px !important;
+    }
+    .eNgSQC {
+      width: 50px !important;
+      margin-left: 0px !important;
+    }
+    .dwBzgA {
+      margin-left: 50px !important;
+    }
+  }
+
+  @media (max-width: 393px) {
+    .cuuBXl {
+      width: 200px !important;
+    }
+    .gaplOe {
+      position: relative;
+      left: 20px;
+      top: 150px;
+      width: 360px !important;
+      background-size: auto;
+      margin: 0px !important;
+    }
+    .emGcLC {
+      position: relative;
+      left: -380px;
+      width: 360px !important;
+      background-size: auto;
+      margin: 0px !important;
+    }
+    .eTAzFE {
+      font-size: 14px !important;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .liqzki {
+      width: 60px !important;
+    }
+    .cuuBXl {
+      width: 170px !important;
+    }
+    .gaplOe {
+      position: relative;
+      left: 20px;
+      top: 150px;
+      width: 350px !important;
+      background-size: auto;
+      margin: 0px !important;
+    }
+    .emGcLC {
+      position: relative;
+      left: -360px;
+      width: 320px !important;
+      background-size: auto;
+      margin: 0px !important;
+    }
+    .bHwxoL,
+    .hXqHLQ {
+      width: 200px !important;
+    }
+    .eNgSQC {
+      width: 50px !important;
+      margin-right: 10px !important;
+    }
+  }
+  @media (max-width: 320px) {
+    .jZwAxu {
+      width: 25vw !important;
+    }
+    .liqzki {
+      width: 70px !important;
+    }
+    .cuuBXl {
+      width: 120px !important;
+    }
+    .gaplOe {
+      position: relative;
+      left: 25px;
+      top: 150px;
+      width: 300px !important;
+      background-size: auto;
+      margin: 0px !important;
+    }
+    .emGcLC {
+      position: relative;
+      left: -330px;
+      width: 320px !important;
+      background-size: auto;
+      margin: 0px !important;
+    }
+    .bHwxoL,
+    .hXqHLQ {
+      width: 170px !important;
+    }
+    .hdGPhd {
+      height: 70px !important;
+      width: 70px !important;
+    }
+    .eNgSQC {
+      width: 30px !important;
+      margin-right: 10px !important;
+    }
+    .gfxvuB {
+      font-size: 18px !important;
+    }
+    .jiSfzC,
+    .hgYvmx {
+      font-size: 6px !important;
+    }
+  }
+}
+.clZRON {
+  overflow-x: scroll !important;
+} */

@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "sohne";
+  src: url("Sohne-Leicht.woff2");
+}
+
+@font-face {
+  font-family: "sohne-400";
+  src: url("Sohne-Buch.woff2");
+}
+
+@font-face {
+  font-family: "sohne-700";
+  src: url("Sohne-Dreiviertelfett.woff2");
+}
+
+@font-face {
+  font-family: "gt-super";
+  src: url("GT-Super-Text-Book.woff2");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main: #ffc017;
+}
+.flex {
+  display: flex;
+}
+
+.justify-b {
+  justify-content: space-between;
+}
+
+.align-c {
+  align-items: center;
+}
+
+.g-w {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  outline: none;
+}
+
+.py-lg {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.grid {
+  display: grid;
+}
+
+.columns-3 {
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
