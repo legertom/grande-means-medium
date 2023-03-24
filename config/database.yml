@@ -19,7 +19,7 @@ default: &default
   encoding: unicode
   user: isybqziblxjnva
   password: afd4809d23ff88dd247d5a4113c6ec1b57c4c04efc9b0e63a6d17821fce59fb8
-  # username: hanan
+  # username: fakename
   # password: King664664
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling

@@ -17,28 +17,28 @@ const LandingMainPage = ({ userDetails }) => {
   const [tab, setTab] = useState(0);
   console.log(userDetails);
   const [stories, setStories] = useState([
-    { id: 1, title: "hanan" },
-    { id: 2, title: "hanan" },
-    { id: 3, title: "hanan" },
+    { id: 1, title: "fakename" },
+    { id: 2, title: "fakename" },
+    { id: 3, title: "fakename" },
   ]);
   const [users, setUsers] = useState([
     {
       id: 1,
       displayName: "Hanna",
       photoURL: "",
-      email: "hananwaqar7@gmail.com",
+      email: "test@fakeemail.com",
     },
     {
       id: 1,
       displayName: "Hanna",
       photoURL: "",
-      email: "hananwaqar7@gmail.com",
+      email: "test@fakeemail.com",
     },
     {
       id: 1,
       displayName: "Hanna",
       photoURL: "",
-      email: "hananwaqar7@gmail.com",
+      email: "test@fakeemail.com",
     },
   ]);
   const [loading, setLoading] = useState(true);
